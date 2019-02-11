@@ -56,12 +56,23 @@ IOT services
 
 Development and Management Tools:
 devops
+
+cloudping.info
+
+
+Edge locations:
+WAF - Securirty services - stop DoS attacks
+
+
+
 ci-cd
 
 Storage:
 Object - S3 - scalable
 Block -EBS - HHD
 Archive - 
+
+http://ec2instances.info
 
 
 
