@@ -111,6 +111,18 @@ Adding more instances with load balancer in the front
 
 RDS are only vertically scalable
 
+scalable architecture
+
+Load balancer 
+EC2 - horizontal scaling
+EFS - scalable network storage
+S3 - scalable S3 storage
+RDS - database vertically scalable
+cloud front
+Auto scaling
+
+https://aws.amazon.com/architecture/
+
 
 
 
