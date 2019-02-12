@@ -95,7 +95,7 @@ aws s3 cp sheep1.png s3://imagestoresg/
 upload: .\sheep1.png to s3://imagestoresg/sheep1.png
 
 
-
+Use multi-part upload in S3 to make the upload reliable
 
 
 
