@@ -59,11 +59,8 @@ devops
 
 cloudping.info
 
-
 Edge locations:
 WAF - Securirty services - stop DoS attacks
-
-
 
 
 Storage:
@@ -111,6 +108,8 @@ Adding more power
 
 Horizontal scaling: 
 Adding more instances with load balancer in the front
+
+RDS are only vertically scalable
 
 
 
