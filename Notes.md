@@ -83,7 +83,11 @@ sudo mkfs -t xfs /dev/xvdf
 mount /dev/sdf /disk2 -> mount disk2 to /sdf directory
 
 
+AWS S3 is a object storage, store any type of data. 
 
+S3 has elastic buckets. the bucket name is always unique.
+
+each bucket & file can have ACL
 
 
 
