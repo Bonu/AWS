@@ -97,6 +97,27 @@ upload: .\sheep1.png to s3://imagestoresg/sheep1.png
 
 Use multi-part upload in S3 to make the upload reliable
 
+AWS EFS - Elastic file system
+-------
+Can be mounted as network drive to EC2 instance
+Shared network file system can read from all instances
+Scalable
+
+Scaling
+-------
+
+Vertical scaling: Supports stateless and statefull applications
+Adding more power
+
+Horizontal scaling: 
+Adding more instances with load balancer in the front
+
+
+
+
+
+
+
 
 
 
