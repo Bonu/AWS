@@ -89,7 +89,10 @@ S3 has elastic buckets. the bucket name is always unique.
 
 each bucket & file can have ACL
 
+aws s3 cp sample.txt s3://mybuckettraining/files/
 
+aws s3 cp sheep1.png s3://imagestoresg/
+upload: .\sheep1.png to s3://imagestoresg/sheep1.png
 
 
 
