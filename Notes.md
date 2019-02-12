@@ -65,14 +65,22 @@ WAF - Securirty services - stop DoS attacks
 
 
 
-ci-cd
 
 Storage:
 Object - S3 - scalable
 Block -EBS - HHD
 Archive - 
 
+GP2 -> SSD
+GP1 -> Hybrid
+
 http://ec2instances.info
+
+lsblk
+
+sudo mkfs -t xfs /dev/xvdf
+
+mount /dev/sdf /disk2 -> mount disk2 to /sdf directory
 
 
 
