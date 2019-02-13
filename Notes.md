@@ -95,7 +95,8 @@ upload: .\sheep1.png to s3://imagestoresg/sheep1.png
 Use multi-part upload in S3 to make the upload reliable
 
 AWS EFS - Elastic file system
--------
+------------------------------
+
 Can be mounted as network drive to EC2 instance
 Shared network file system can read from all instances
 Scalable
@@ -113,6 +114,7 @@ RDS are only vertically scalable
 
 VPC  
 ---
+
 Virtual private network is a network isolated zone. It contains subnets.
 Each subnet is one availability zone. change IP rules can control comm b/w subnets.
 Internet gateway is created at the time of VPC creation
