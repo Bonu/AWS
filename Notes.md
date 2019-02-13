@@ -111,6 +111,17 @@ Adding more instances with load balancer in the front
 
 RDS are only vertically scalable
 
+VPC  
+---
+Virtual private network is a network isolated zone. It contains subnets.
+Each subnet is one availability zone. change IP rules can control comm b/w subnets.
+Internet gateway is created at the time of VPC creation
+
+In IG we can block the out going traffic
+
+
+
+
 scalable architecture
 
 Load balancer 
