@@ -141,10 +141,31 @@ Use CIDR notation in IP configuration for subnets
 https://www.ipaddressguide.com/cidr
 
 
+Amazon dynamoDB
+Amazon ElastiCache - redis, memcache, central session storage for instances store in runtime memory. central session controllers for LB based applications
+Amazon RDS - mysql, postgres
+Amazon Redshift - DWH 
+Amazon Neptune
+Amazon DocumentDB
+
+There are two types of authentication
+Session based
+Cookie based
+
+Sticky-session and load balancer.
+
+Prefer cookie based authentication and stateless session based web applications
+
 
 References
-
+----------
 http://bit.ly/socgentraining
+https://beam.apache.org/get-started/quickstart-go/ 
+
+PCRDS compilance - secure data transfer using SSL is mandatory
+
+
+
 
 
 
