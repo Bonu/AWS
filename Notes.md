@@ -137,6 +137,9 @@ Internet gateway is created at the time of VPC creation
 
 In IG we can block the out going traffic
 
+Use CIDR notation in IP configuration for subnets
+https://www.ipaddressguide.com/cidr
+
 
 
 
