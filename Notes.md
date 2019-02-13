@@ -64,6 +64,8 @@ WAF - Securirty services - stop DoS attacks
 
 
 Storage:
+--------
+
 Object - S3 - scalable
 Block -EBS - HHD
 Archive - 
@@ -112,20 +114,8 @@ Adding more instances with load balancer in the front
 
 RDS are only vertically scalable
 
-VPC  
----
-
-Virtual private network is a network isolated zone. It contains subnets.
-Each subnet is one availability zone. change IP rules can control comm b/w subnets.
-Internet gateway is created at the time of VPC creation
-
-In IG we can block the out going traffic
-
-
-
-
-scalable architecture
-
+Scalable architecture
+---------------------
 Load balancer 
 EC2 - horizontal scaling
 EFS - scalable network storage
@@ -135,6 +125,18 @@ cloud front
 Auto scaling
 
 https://aws.amazon.com/architecture/
+
+
+
+VPC  
+---
+
+Virtual private network is a network isolated zone. It contains subnets.
+Each subnet is one availability zone. change IP rules can control comm b/w subnets.
+Internet gateway is created at the time of VPC creation
+
+In IG we can block the out going traffic
+
 
 
 
